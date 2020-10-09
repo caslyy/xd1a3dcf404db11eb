@@ -1,0 +1,29 @@
+:host {
+
+  .wrapper {
+    height: 60vh;
+
+    .god-container {
+      display: inline-flex;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      height: 100%;
+
+      span {
+        font-family: 'Appareo';
+        font-size: 3.2vh;
+        color: #D8D9BA;
+        margin-top: -20px;
+      }
+
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+
+  }
+
+
+}

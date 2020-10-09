@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <div *ngIf="iconPosition === 0" class="icon">
+    <img [src]="currentIcon">
+  </div>
+  <div class="info">
+    <div class="font-1" [ngClass]="{'text-right' : iconPosition === 1}">{{ headline }}</div>
+    <div class="font-2" [ngClass]="{'text-right' : iconPosition === 1}">{{ subline }}</div>
+  </div>
+  <div *ngIf="iconPosition === 1" class="icon">
+    <img [src]="currentIcon">
+  </div>
+</div>

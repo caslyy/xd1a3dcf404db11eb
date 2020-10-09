@@ -1,0 +1,22 @@
+:host .wrapper {
+  height: 60vh;
+}
+:host .wrapper .god-container {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+:host .wrapper .god-container span {
+  font-family: "Appareo";
+  font-size: 3.2vh;
+  color: #D8D9BA;
+  margin-top: -20px;
+}
+:host .wrapper .god-container img {
+  height: 100%;
+  width: auto;
+}
+
+/*# sourceMappingURL=god.component.css.map */

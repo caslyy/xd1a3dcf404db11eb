@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+  padding: 0;
+  height:10vh;
+  min-height: 48px;
+  justify-content: center;
+  align-items: center;
+  background-color: #060e0e;
+  overflow: hidden;
+
+
+  .content {
+    font-family: 'Appareo';
+    text-align: center;
+    color:#FDFDFD;
+    display: inline;
+  }
+}

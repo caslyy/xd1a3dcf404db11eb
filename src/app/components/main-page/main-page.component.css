@@ -1,0 +1,12 @@
+:host .r {
+  background-color: red;
+}
+:host .wrapper {
+  background-image: url("../../../assets/general/backgrounds/Main_BG.png") !important;
+  background-size: cover;
+  color: green;
+  height: 100%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main-page.component.css.map */

@@ -1,0 +1,33 @@
+:host {
+
+   font-family: 'Appareo';
+   margin: 0 0.3rem;
+
+  .wrapper {
+    display: flex;
+    height: 100%;
+  }
+  img {
+    width: auto;
+    height: 10vh;
+    display: block;
+    min-height: 40px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .icon {
+    padding: 0 0.2rem;
+    display: flex;
+    align-items: center;
+  }
+  .font-1 {
+    color:#C5A167;
+  }
+  .font-2 {
+    color:#FDFDFD;
+  }
+}

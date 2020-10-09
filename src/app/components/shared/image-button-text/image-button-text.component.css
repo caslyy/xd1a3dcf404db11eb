@@ -1,0 +1,20 @@
+:host .wrapper {
+  margin: 1rem 0;
+}
+:host .wrapper .content {
+  position: relative;
+}
+:host .wrapper .content span {
+  position: absolute;
+  right: 12px;
+  bottom: 8px;
+  font-family: "Appareo";
+  color: #EBEDC6;
+  text-shadow: -1px 1px 5px rgba(0, 0, 0, 0.33);
+}
+:host .wrapper .content img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=image-button-text.component.css.map */

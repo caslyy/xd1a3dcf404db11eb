@@ -1,0 +1,18 @@
+:host {
+  margin: 0 1rem;
+}
+:host .icon-btn {
+  display: inline-block;
+  text-align: center;
+  -webkit-user-select: none;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+}
+:host .icon-btn:not(:disabled) {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=icon-button.component.css.map */

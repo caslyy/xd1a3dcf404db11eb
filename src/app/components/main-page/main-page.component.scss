@@ -1,0 +1,18 @@
+:host {
+
+  .r {
+    background-color: red;
+  }
+
+
+  .wrapper {
+    background-image: url("../../../assets/general/backgrounds/Main_BG.png") !important; // this component gets overwritten random
+    background-size: cover;
+    color:green;
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+}

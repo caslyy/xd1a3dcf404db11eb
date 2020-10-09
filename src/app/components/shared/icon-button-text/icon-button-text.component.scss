@@ -1,0 +1,35 @@
+:host {
+
+  font-family: 'Appareo';
+  display: inline-flex;
+  margin: 0.3rem 0;
+  .wrapper {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .btn {
+    height: 10vh;
+    min-height: 40px;
+    max-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#2d2d2d;
+  }
+  .left {
+    margin-right: -10px;
+    z-index: 99;
+  }
+  .right {
+    margin-left: -10px;
+    z-index: 99;
+  }
+  .icon {
+    img {
+      height: 10vh;
+      min-height: 60px;
+      max-height: 100px;
+    }
+  }
+}

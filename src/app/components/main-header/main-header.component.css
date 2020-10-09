@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  padding: 0;
+  height: 10vh;
+  min-height: 48px;
+  justify-content: space-between;
+  background-color: #060e0e;
+  overflow: hidden;
+}
+:host .left, :host .right {
+  display: flex;
+  height: 100%;
+}
+
+/*# sourceMappingURL=main-header.component.css.map */

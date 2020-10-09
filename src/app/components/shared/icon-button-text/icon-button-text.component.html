@@ -1,0 +1,11 @@
+<div class="wrapper t">
+  <div *ngIf="iconPosition === 0" class="icon left">
+    <img [src]="currentIcon">
+  </div>
+  <div class="btn" [style.background-color]="color">
+    {{text}}
+  </div>
+  <div *ngIf="iconPosition === 1" class="icon right">
+    <img [src]="currentIcon">
+  </div>
+</div>

@@ -1,0 +1,32 @@
+:host {
+  font-family: "Appareo";
+  margin: 0 0.3rem;
+}
+:host .wrapper {
+  display: flex;
+  height: 100%;
+}
+:host img {
+  width: auto;
+  height: 10vh;
+  display: block;
+  min-height: 40px;
+}
+:host .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+:host .icon {
+  padding: 0 0.2rem;
+  display: flex;
+  align-items: center;
+}
+:host .font-1 {
+  color: #C5A167;
+}
+:host .font-2 {
+  color: #FDFDFD;
+}
+
+/*# sourceMappingURL=icon-info-text.component.css.map */
