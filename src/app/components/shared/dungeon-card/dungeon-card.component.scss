@@ -1,0 +1,36 @@
+:host {
+
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    .image {
+      overflow: hidden;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+  }
+  .price {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 1rem;
+    background-color: #CBCF59;
+    text-align: center;
+    font-family: 'Appareo';
+    color: #442311;
+    text-shadow: 0px 1px 0px rgb(68,35, 17);
+
+    img {
+      width: 24px;
+      margin-left: 4px;
+      margin-top: 4px;
+    }
+    div {
+      padding-bottom: 0.3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

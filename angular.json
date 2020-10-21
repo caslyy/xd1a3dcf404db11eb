@@ -25,7 +25,9 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/general/css/overwrite.css"
+              "src/assets/general/css/overwrite.css",
+              "node_modules/ngx-toastr/toastr.css",
+              "node_modules/keen-slider/keen-slider.min.css"
             ],
             "scripts": []
           },

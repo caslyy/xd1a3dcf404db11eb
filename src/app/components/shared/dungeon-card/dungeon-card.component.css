@@ -1,0 +1,32 @@
+:host .content {
+  display: flex;
+  flex-direction: column;
+}
+:host .content .image {
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+:host .price {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 1rem;
+  background-color: #CBCF59;
+  text-align: center;
+  font-family: "Appareo";
+  color: #442311;
+  text-shadow: 0px 1px 0px #442311;
+}
+:host .price img {
+  width: 24px;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+:host .price div {
+  padding-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=dungeon-card.component.css.map */

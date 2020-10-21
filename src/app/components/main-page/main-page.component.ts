@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {PlayerService} from '../../services/player.service';
+import {ToastrService} from 'ngx-toastr';
 
 @Component({
   selector: 'app-main-page',
@@ -10,11 +11,12 @@ export class MainPageComponent implements OnInit {
 
   player = this.playerService.getPlayer();
 
-  constructor(private playerService: PlayerService) {
+  selectedGod = this.player.selectedGod[0];
+
+  constructor(private playerService: PlayerService, private toastr: ToastrService) {
   }
 
   ngOnInit(): void {
-    console.log(this.player);
   }
 
 }

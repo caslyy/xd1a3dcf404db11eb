@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .bg-black {
   background-color: #3c525a !important;
 }
@@ -14,6 +15,33 @@ body {
 
 .font-2 {
   font-size: 2.8vh;
+}
+
+.god-toastr {
+  padding: 0 1rem 0.2rem 1rem;
+  color: #F2E8D2;
+  font-family: "Appareo";
+  background-image: url("../messages/General_Gold_Error.png");
+  background-size: cover;
+  font-size: 16px;
+}
+.god-toastr:after {
+  content: "➧";
+  position: absolute;
+  top: -15px;
+  right: 36px;
+  transform: rotate(-90deg) scale(1.8);
+  color: #200c00;
+}
+
+.reputePosition {
+  top: 64px;
+  right: 80px;
+}
+
+.goldPosition {
+  top: 64px;
+  right: 200px;
 }
 
 .god-pulse {

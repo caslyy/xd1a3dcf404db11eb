@@ -7,11 +7,11 @@
       <app-icon-button-text [icon]="'shop'" [iconPosition]="0" [text]="'Shop'" [color]="'#EFEFC7'"></app-icon-button-text>
     </div>
     <div class="col-3">
-      <app-god [name]="'Ullr'" [god]="'ullr'"></app-god>
+      <app-god [name]="selectedGod.name" [god]="selectedGod.image"></app-god>
     </div>
     <div class="col-5">
-      <app-image-button-text [image]="'arena'" [text]="'The Arena'"></app-image-button-text>
-      <app-image-button-text [image]="'navigation'" [text]="'Navigate'"></app-image-button-text>
+      <app-image-button-text [image]="'arena'" [text]="'The Arena'" appEnoughGold [currencyNeeded]="5000" [currencyType]="0" [unlockable]="'arena'"></app-image-button-text>
+      <app-image-button-text [image]="'navigate'" [text]="'Navigate'" [routerLink]="['/dungeons']"></app-image-button-text>
     </div>
   </div>
 </div>

@@ -8,7 +8,7 @@ import {Component, Input, OnInit} from '@angular/core';
 export class ImageButtonTextComponent implements OnInit {
 
   private images = {
-    navigation: 'assets/general/content/main-page/Content_Navigation.png',
+    navigate: 'assets/general/content/main-page/Content_Navigation.png',
     arena: 'assets/general/content/main-page/Content_Arena.png',
   };
 

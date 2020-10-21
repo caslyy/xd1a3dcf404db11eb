@@ -1,4 +1,4 @@
-export class God {
+export class Achievment {
 
   constructor(
     public hp: number,

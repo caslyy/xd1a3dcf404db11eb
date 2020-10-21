@@ -1,8 +1,9 @@
 :host .wrapper {
+  overflow: hidden;
   background-image: url("../../../assets/general/backgrounds/Main_BG.png") !important;
   background-size: cover;
   height: 100%;
   width: 100%;
 }
 
-/*# sourceMappingURL=main-page.component.css.map */
+/*# sourceMappingURL=dungeon-page.component.css.map */

@@ -1,5 +1,6 @@
 :host {
   .wrapper {
+    overflow: hidden;
     background-image: url("../../../assets/general/backgrounds/Main_BG.png") !important; // this component gets overwritten random
     background-size: cover;
     height: 100%;
